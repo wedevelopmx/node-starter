@@ -41,6 +41,28 @@ We are using a predefined theme known as FLATKIT, we host our licence code in bi
 
 If you are not part of we develop you can purchase a license on [Flatkit Oficial Page](http://flatfull.com/themes/flatkit/), then you have to place it under folder /public/vendor before executing grunt.
 
+## Know Issues
+
+1. Please install sqlite3 package manually
+
+  Node newer version may have troubles to install sqlite3 dependency using npm. You can overcome this issue by running below command:
+
+  ```
+  bower install sqlite3
+  ```
+
+2.  Grunt Sass &amp; Node Sass
+
+  For newer versions of node, grunt dependency "node-sass" is not able to compile correctly, you can overcome this issue by running below command:
+
+  ```
+  cd node_modules/grunt-sass/node_modules/node-sass
+  npm install
+  node scripts/install.js
+  ```
+
+  After this process you can bring up the application. 
+
 ## License
 
 Copyright (c) 2016 [WeDevelop](http://wedevelop.mx/ "WeDevelop")
