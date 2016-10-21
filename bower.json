@@ -200,6 +200,7 @@
     "twitter-bootstrap-wizard": "~1.0.0",
     "underscore": "~1.8.3",
     "venturocket-angular-slider": "~0.3.2",
-    "waves": "~0.7.2"
+    "waves": "~0.7.2",
+    "flatkit": "git@bitbucket.org:wedevelopmx/flatkit.git"
   }
 }
